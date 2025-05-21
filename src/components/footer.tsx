@@ -1,3 +1,4 @@
+
 import { h } from 'preact'
 import Browser from 'webextension-polyfill'
 

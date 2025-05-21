@@ -1,6 +1,7 @@
 import { h } from 'preact'
 import { icons } from 'src/util/icons'
 import { getTranslation, Languages, localizationKeys } from 'src/util/localization'
+
 import Browser from 'webextension-polyfill'
 import IconButton from './socialIconButton'
 import TooltipWrapper from './tooltipWrapper'
