@@ -1,4 +1,5 @@
 import { h } from "preact"
+
 import { useEffect, useState } from "preact/hooks"
 import { getTranslation, localizationKeys } from "src/util/localization"
 import { getUserConfig, updateUserConfig } from "src/util/userConfig"
