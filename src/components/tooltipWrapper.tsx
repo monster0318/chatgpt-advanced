@@ -6,6 +6,7 @@ export const tooltipPositions = {
 }
 
 
+
 function TooltipWrapper(props: { tip: string, children: JSX.Element, position?: string }) {
     if (!props.tip) return props.children
 

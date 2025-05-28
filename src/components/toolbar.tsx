@@ -1,5 +1,6 @@
 import { h } from 'preact'
 import { useEffect, useState } from 'preact/hooks'
+
 import { icons } from 'src/util/icons'
 import { getSavedPrompts, Prompt } from 'src/util/promptManager'
 import { getUserConfig, updateUserConfig } from 'src/util/userConfig'
